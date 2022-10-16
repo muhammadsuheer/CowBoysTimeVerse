@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Quiz from '../components/quiz/Quiz'
 import Navbar from '../components/navbar/navbar'
-export default function Quiz() {
+export default function TheQuiz() {
   return (
     <div>
       <Head>
