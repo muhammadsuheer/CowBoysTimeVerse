@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .left {
+    z-index: 10;
+  }
+  
+  .nseriesWrapper {
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+    align-items: center;
+  }
+  .firstLetter {
+    color: var(--red);
+    font-size: 3rem;
+    font-weight: 800;
+    
+  }
+  .series {
+    word-spacing: 5px;
+    font-weight: 900;
+  }
+  .heading{
+    display: block;
+    text-align: center;
+  
+  }
+  .title {
+ 
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  
+  .subTitle {
+
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .playBtnWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .btnWithIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  width: 25%;
+  height: 45px;
+  cursor: pointer;
+  margin-left: 20px;
+  
+
+  }
+  .playText{
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  
+  .bannerImg{
+    position: absolute;
+    width: 100%;
+    height: 100% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+  

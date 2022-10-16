@@ -1,0 +1,48 @@
+.container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+.wrapper{
+    padding-left: 2.5rem;
+padding-right: 2.5rem; 
+padding-top: 4rem;
+padding-bottom: 4rem; 
+width: 100%; 
+border-radius: 1.5rem; 
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
+}
+.questhead{
+    margin-bottom: 1.5rem; 
+filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
+}
+
+
+.para1{
+    padding: 0.75rem; 
+padding-left: 1.25rem; 
+margin-top: 0.5rem;
+margin-bottom: 0.5rem; 
+transition-property: all; 
+color: #ffffff; 
+background-color: aqua;
+font-weight: 500; 
+border-radius: 0.75rem; 
+cursor: pointer; 
+filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); }
+.para1:hover{
+color: blue;
+}
+.para2{
+    margin-left: 1rem; 
+    font-weight: 500; 
+    text-align: center;
+    color: red;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
+}
+
+
+
+

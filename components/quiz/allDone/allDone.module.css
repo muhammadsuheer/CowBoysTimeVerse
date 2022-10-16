@@ -1,0 +1,153 @@
+.container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+height: 90vh;
+}
+
+.wrapper{
+    padding-left: 2.5rem;
+padding-right: 2.5rem; 
+padding-top: 4rem;
+padding-bottom: 4rem; 
+width: 83.333333%; 
+border-radius: 1.5rem; 
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
+}
+
+.allDone{
+    margin-bottom: 1.5rem; 
+font-weight: 900; 
+filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
+}
+.paa1{
+    margin-bottom: 1.25rem; 
+font-weight: 500; 
+filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
+}
+.para2{
+    margin-bottom: 1rem; 
+font-weight: 500; 
+filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
+}
+
+.span1{
+    color: #EF4444; 
+font-size: 1.125rem;
+line-height: 1.75rem; 
+font-weight: 500; 
+
+}
+
+.btn1{
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+margin-top: 0.75rem; 
+background-color: #ffffff; 
+color: #9CA3AF; 
+border-radius: 0.375rem; 
+border-width: 1px; 
+border-color: #D1D5DB; 
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); 
+width: 150px;
+}
+
+.btn2{
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+margin-top: 0.75rem; 
+transition-property: all; 
+color: #ffffff; 
+border-radius: 0.5rem; 
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+
+}
+.btn2:hover {
+ background-color: #064E3B; }
+
+
+
+ .btn3{
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+margin-top: 0.75rem; 
+background-color: #6B7280; 
+transition-property: all; 
+color: #000000; 
+border-radius: 0.5rem; 
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}
+
+@media (min-width: 640px) { 
+    .btn3{
+    margin-top: 0; 
+  margin-left: 0.75rem; 
+   }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 640px) { 
+    .btn2{
+    margin-top: 0; 
+  margin-left: 0.75rem; 
+   }}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 640px) { 
+    .btn1{
+    margin-top: 0; 
+  margin-left: 0.75rem; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  width: 250px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px)  { 
+.wrapper{
+    width: 50%; 
+ }
+}}
