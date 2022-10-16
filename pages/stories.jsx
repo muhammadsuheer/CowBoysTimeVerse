@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/navbar/navbar'
 import StoriesCard from '../components/storiesCard/storiesCard'
-export default function Home() {
+export default function Stories() {
   return (
     <div>
       <Head>

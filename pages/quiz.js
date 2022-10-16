@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Quiz from '../components/quiz/Quiz'
 import Navbar from '../components/navbar/navbar'
-export default function Home() {
+export default function Quiz() {
   return (
     <div className={styles.container}>
       <Head>
