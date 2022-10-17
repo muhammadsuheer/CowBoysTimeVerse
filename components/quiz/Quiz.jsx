@@ -104,18 +104,17 @@ const Quiz = () => {
        
       <div className={styles.overlay}>
         <div className={styles.centa}>
-       
+        <div  className={styles.para2} >
+        <p className={styles.para2}>Time: 00:{time / 1000}</p>
+        </div>
           {state === "start" && (
             <StartCard
               handleState={handleState}
               handleTimerStart={handleTimerStart}
-              
             />
             
           )}
-           <div>
-        <p className={styles.para2}>Time: 00:{time / 1000}</p>
-        </div>
+          
           {state === "quiz" && (
             <Question
               questionText={questions[questionNo].questionText}

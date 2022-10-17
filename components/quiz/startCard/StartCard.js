@@ -3,15 +3,17 @@ import Image from "next/image";
 const StartCard = ({handleState, handleTimerStart}) => {
   return (
     <div className={styles.container}>
-    
-      <div className={styles.wrapper}>
-      <Image src={"/static/cowboy.gif"}
-        width={400}
-        height={500}
+            <div  className={styles.image}>
+      <Image  src={"/static/cowboy.gif"}
+        width={500}
+        height={600}
       />
-        <h1 className={styles.heading}>
-           Let&apos;s see <span className={styles.firstLetter}>How Much</span> You Know About <span className={styles.firstLetter}>COWBOYS</span> ?
-        </h1>
+      </div>
+      <div className={styles.wrapper}>
+  
+        <h3 className={styles.heading}>
+        <span className={styles.firstLetter}> Let&apos;s See </span> How Much You Know About <span className={styles.firstLetter}>COWBOYS</span> ?
+        </h3>
         <p className={styles.subTitle}>
           Try to answer the following CowBoy-related questions within time limit.
         </p>
