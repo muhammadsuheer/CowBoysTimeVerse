@@ -10,9 +10,10 @@ const Navbar = () => {
       <div className={styles.wrapper}>
         <Link className={styles.logoLink} href="/">
           <a>
-            <div className={styles.logoWrapper}>
-              <Image className={styles.imagee}
-                src="/static/logo.webp"
+            
+            <div  className={styles.logoWrapper}>
+              <Image  className={styles.imagee}
+                src="/static/logo.png"
                 alt="Cowboy logo"
                 width="500px"
                 height="500px"
