@@ -2,8 +2,8 @@ const questions = [
     {
       id: "1",
       questionText: "Who was the First Cowboy:",
-      options: ["1. vaquero", "2. Buffalo Bill", "3. Mexican", "4. William Anderson"],
-      answer: "1. vaquero ",
+      options: ["1. Buffalo Bill", "2. Vaquero", "3. Mexican", "4. William Anderson"],
+      answer: "2. Vaquero",
     },
     {
       id: "2",

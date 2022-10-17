@@ -8,7 +8,7 @@ height: 90vh;
 .wrapper{
 
     padding-left: 2.5rem;
-padding-right: 2.5rem; 
+padding-right: 12.5rem; 
 padding-top: 4rem;
 padding-bottom: 4rem; 
 width: 83.333333%; 
@@ -18,7 +18,7 @@ box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 
 .heading{
 margin-bottom: 1.5rem; 
 font-weight: 900; 
-filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
+color: red;
 }
 .btn22{
     display: flex;
@@ -26,8 +26,7 @@ filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
 .para1{
     margin-bottom: 1.25rem; 
 font-weight: 500; 
-filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05)); 
-
+color: black;
 }
 
 
@@ -39,12 +38,12 @@ padding-right: 0.75rem;
 margin-bottom: 0.75rem; 
 margin-right: 1.25rem; 
 transition-property: all; 
-color: #ffffff; 
+color: black; 
 border-radius: 0.5rem; 
 box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
 }
 .btn1:hover {
- background-color: #064E3B; 
+ background-color: red; 
  }
 
  .btn2{
@@ -53,7 +52,7 @@ padding-bottom: 0.75rem;
 padding-left: 0.75rem;
 padding-right: 0.75rem; 
 transition-property: all; 
-color: #ffffff; 
+color: red; 
 border-radius: 0.5rem; 
 box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
  }
@@ -62,14 +61,22 @@ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06
     background-color: #064E3B; 
     }
 
+.score{
+    color: var(--red);
+    font-size: 1rem;
+    font-weight: 800;
+}
 
-
+.name{
+    color: var(--red);
+    font-size: 1rem;
+    font-weight: 800;
+}
 
 
 
 
 @media (min-width: 1024px) { 
     .wrapper{
-    width: 50%; 
    }}
 

@@ -22,7 +22,7 @@ const Banner = (props) => {
         <div className={styles.left}>
           <div className={styles.nseriesWrapper}>
           <p className={styles.series}>THE</p>
-          <p className={styles.firstLetter}>DARK</p>
+          <p className={styles.firstLetter}>UNTOLD</p>
           <p className={styles.series}>LIFE OF</p>
             <p className={styles.firstLetter}>COWBOYS</p>
           </div>
@@ -36,7 +36,7 @@ const Banner = (props) => {
               <span className={styles.playText}>Stories</span>
             </button>
             <button className={styles.btnWithIcon} onClick={handleOnStarted}>
-              <span className={styles.playText}>Wanne Be a CowBoy</span>
+            <span className={styles.playText}>Wanne Be a CowBoy</span>         
             </button>
           </div>
           

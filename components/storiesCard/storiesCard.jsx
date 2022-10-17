@@ -19,10 +19,9 @@ const StoriesCard = () => {
   <li>
   <Link passHref href="https://www.cowboyshowcase.com/stories.html">
     <a  target="_blank"  className="card">
-      <Image layout='fill' src="/static/story1.png" className="card__image" alt="" />
+    <Image layout='fill' src="/static/story1.jpg" className="card__image" alt="horse-story" />
       <div className="card__overlay">
         <div className="card__header">
-          <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
           <div className="card__header-text">
             <h3 className="card__title">
 Tom Sheehan - Cowboy Stories</h3>            
@@ -35,9 +34,9 @@ Tom Sheehan - Cowboy Stories</h3>
  
   </li>
   <li>
-  <Link href="https://www.cowboyshowcase.com/stories.html">
-    <a h className="card">
-      <Image layout='fill' src="/static/story1.png" className="card__image" alt="" />
+  <Link passHref  href="https://www.cowboyshowcase.com/stories.html">
+    <a target="_blank"  className="card">
+    <Image passHref layout='fill' src="/static/story2.jpg" className="card__image" alt="" />
       <div className="card__overlay">        
         <div className="card__header">
           <div className="card__header-text">
@@ -51,9 +50,9 @@ Tom Sheehan - Cowboy Stories</h3>
 
   </li>
   <li>
-  <Link href="https://www.cowboyshowcase.com/stories.html">
-    <a  className="card">
-      <Image layout='fill' src="/static/story1.jpg" className="card__image" alt="" />
+  <Link passHref href="https://www.cowboyshowcase.com/stories.html">
+    <a target="_blank" className="card">
+      <Image layout='fill' src="/static/story3.jpg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
           <div className="card__header-text">
@@ -67,10 +66,10 @@ Tom Sheehan - Cowboy Stories</h3>
 
   </li>
   <li>
-    <Link href="https://www.cowboyshowcase.com/stories.html">
-    <a  className="card">
+    <Link passHref href="https://www.cowboyshowcase.com/stories.html">
+    <a target="_blank"  className="card">
       
-      <Image layout='fill' src="/static/story1.png" className="card__image" alt="" />
+    <Image layout='fill' src="/static/story4.jpeg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
           <div className="card__header-text">

@@ -101,27 +101,21 @@ const Quiz = () => {
   return (
     <div className={styles.container}>
       <div className={styles.container}>
-        <div className={styles.all}>
-          <p
-            className={styles.para1}
-            onClick={() => {
-              handleState("highscore");
-            }}
-          >
-            View HighScores
-          </p>
-          <i className={styles.fafa}></i>
-        </div>
-        <p className={styles.para2}>Time: 00:{time / 1000}</p>
-      </div>
+       
       <div className={styles.overlay}>
         <div className={styles.centa}>
+       
           {state === "start" && (
             <StartCard
               handleState={handleState}
               handleTimerStart={handleTimerStart}
+              
             />
+            
           )}
+           <div>
+        <p className={styles.para2}>Time: 00:{time / 1000}</p>
+        </div>
           {state === "quiz" && (
             <Question
               questionText={questions[questionNo].questionText}
@@ -155,7 +149,7 @@ const Quiz = () => {
 
           )}
         </div>
-     
+      </div>
       </div>
     </div>
   );

@@ -2,10 +2,7 @@
     color: var(--white10);
     position: fixed;
     top: 0px;
-    background-image: linear-gradient(to bottom, var(--gradient-stops));
-  
-    --gradient-from: var(--black);
-    --gradient-stops: var(--gradient-from), var(--gradient-to, rgba(0, 0, 0, 0));
+   
     width: 100%;
     z-index: 50;
  
@@ -13,10 +10,8 @@
   
   .wrapper {
   
-    padding-left: 1rem /* 16px */;
-    padding-right: 1rem /* 16px */;
+    
     display: flex;
-    padding: 1.25rem /* 20px */;
   }
   
   .logoLink {
@@ -24,13 +19,45 @@
     font-weight: 500;
     font-size: 1rem;
     align-items: center;
-    color: var(--white10);
     margin-bottom: 1rem/* 16px */;
 }
+
+
+.imagee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin:-60px 0 0 -60px;
+}
+
+.imagee:hover{
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+
+}
+
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+
   
   .logoWrapper {
     color: var(--red);
     width: 8rem /* 128px */;
+    margin-left: 100px;
+    margin-top: 20px;
   }
   
   .navItems {
@@ -39,18 +66,19 @@
     flex-direction: row;
     font-size: 0.875rem /* 14px */;
     font-size: 1rem;
-    padding-right: 4rem;
-  
+    padding-right: 5rem;
+    margin-left: 80px;
+
     line-height: 1.25rem /* 20px */;
     list-style: none;
   }
   
   .navItem {
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 1rem;
     cursor: pointer;
-    margin-right: 0.75rem /* 12px */;
+   color:  #ff2c45;
   }
   
   
@@ -84,6 +112,6 @@
     }
   
     .navItem {
-      margin-right: 1.25rem /* 20px */;
+      margin-right: 5rem /* 20px */;
     }
   }

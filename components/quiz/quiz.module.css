@@ -1,24 +1,15 @@
 
 .container{
-display: flex; 
-position: fixed; 
-top: 0; 
-z-index: 40; 
-padding-top: 1.25rem;
-padding-bottom: 1.25rem; 
-padding-left: 1.75rem;
-padding-right: 1.75rem; 
-justify-content:center ; 
-align-items: center; 
-width: 100vw; 
-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
 
-}
-
-.all{
     display: flex; 
-align-items: center; 
+    background-color: white;
+flex-direction: column; 
+justify-content: center; 
+align-items: center;
+width: 100%;
+height: 100vh;
 }
+
 
 .para1{
     margin-right: 0.75rem; 
@@ -29,32 +20,31 @@ text-align: left;
 cursor: pointer
 }
 .para1:hover {
-    color: #E5E7EB; 
+    color: #070707; 
     }
 
 .fafa{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .para2{
-    color: #ffffff; 
-font-weight: 300; 
-text-align: right; 
+    color: #000000;
+    font-weight: 800;
+    position: absolute;
+    z-index: 10;
+    top: 15%;
+    left: 46%;
+    font-size: 2rem;
 
 }
 
-.overlay{
-    display: flex; 
-flex-direction: column; 
-min-height: 100vh; 
-}
 
 .centa{
     justify-content: center;
 }
 .correctAnswer {
     color: #fef6e4;
-    background: #8bd3dd;
+    background: #000000;
     padding: 1rem;
     }
     .correctAnswer:after {

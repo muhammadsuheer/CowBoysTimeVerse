@@ -1,7 +1,7 @@
 import styles from "./highScore.module.css";
 
-const HighScores = ({handleState, highScore, hadleClearHighScore }) => {
-
+const HighScores = ({handleState, highScore, }) => {
+  // hadleClearHighScore 
   let sortedList = []
     if(highScore){
       sortedList = highScore.sort((a , b ) => {
@@ -21,7 +21,7 @@ const HighScores = ({handleState, highScore, hadleClearHighScore }) => {
         {sortedList.map((entry, index) => {
         return (
         <p key={index} className={styles.para1}>
-                <span className={styles.name}>{entry.name}</span> - <span className={styles.score}>{entry.score}</span>
+                <span className={styles.name}>{entry.name}</span> Your Score is <span className={styles.score}>{entry.score}|</span>
         </p>
         )
         })}

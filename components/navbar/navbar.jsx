@@ -11,11 +11,11 @@ const Navbar = () => {
         <Link className={styles.logoLink} href="/">
           <a>
             <div className={styles.logoWrapper}>
-              <Image
-                src="/static/cowboy.png"
+              <Image className={styles.imagee}
+                src="/static/logo.webp"
                 alt="Cowboy logo"
-                width="948px"
-                height="324px"
+                width="500px"
+                height="500px"
               />
             </div>
           </a>
